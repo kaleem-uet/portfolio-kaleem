@@ -1,7 +1,6 @@
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Skills from "@/components/Skills";
@@ -19,8 +18,7 @@ export default function Home() {
         <Hero />
 
         {/* Grid Section */}
-        <Grid />
-
+ç
         {/* Skills Section */}
         <Skills />
 
