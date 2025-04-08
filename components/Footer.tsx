@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "./ui/Spotlight";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -37,7 +38,27 @@ const Footer = () => {
           />
         </a>
       </div>
-  
+      {/* Social Media Section */}
+      {/* Social Media Section */}
+      <div className="flex justify-center mt-10 space-x-5">
+        {socialMedia.map((social) => (
+          <a
+            key={social.id}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform transform hover:scale-110"
+            aria-label={`Visit my ${social.href}`}
+          >
+            <Image
+              src={social.img}
+              alt={`${social.href} icon`}
+              width={32}
+              height={32}
+            />
+          </a>
+        ))}
+      </div>
     </footer>
   );
 };
