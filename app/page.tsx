@@ -1,6 +1,5 @@
 import { AnimatedModalDemo } from "@/components/animated-modal";
 import Approach from "@/components/Approach";
-import { BentoGridThirdDemo } from "@/components/BentoGridThirdDemo";
 import Clients from "@/components/Client";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
